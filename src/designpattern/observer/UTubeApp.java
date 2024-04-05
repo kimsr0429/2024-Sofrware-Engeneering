@@ -8,10 +8,13 @@ public class UTubeApp {
 
         landCh.setPrice(300000000);
 
-        Subscriber ks3 = new KoreanSubscriber("피카츄", landCh);
+        Subscriber ks3 = new KoreanSubscriber("개굴닌자", landCh);
 
         landCh.setPrice(290000000);
         landCh.removeSubscriber(ks2);
+
+        Subscriber es1 = new EnglishSubscriber("Pikachu", landCh);
+
         landCh.setPrice(200000000);
     }
 }
