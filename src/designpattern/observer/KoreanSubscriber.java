@@ -3,7 +3,7 @@ package designpattern.observer;
 public class KoreanSubscriber implements Subscriber{
     private String name;
     private int value;
-    private LandCh landCh; // Arrgegation (has-a)
+    private Subject landCh; // Arrgegation (has-a)
 
     public KoreanSubscriber(String name, LandCh landCh){
         this.name = name;
