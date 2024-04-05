@@ -11,8 +11,8 @@ public class EnglishSubscriber implements Subscriber{
         landCh.registerSubscriber(this);
     }
     @Override
-    public void update(int value) {
-        this.value = value;
+    public void update() {
+        this.value = landCh.getPrice(); // pull
         System.out.println("Mr/Mrs. " + name + ", the land price has been changed to " + value + "won.");
     }
 }
