@@ -1,4 +1,4 @@
-package designpattern.factory.pizzas;
+package designpattern.factory.simpleFactory;
 
 public class CheesePizza extends Pizza {
     public CheesePizza() {
