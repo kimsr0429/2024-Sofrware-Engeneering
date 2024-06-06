@@ -1,4 +1,4 @@
-package designpattern.command;
+package designpattern.command.pokemon;
 
 // 리시버 클래스
 public class Pokemon {

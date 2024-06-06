@@ -1,4 +1,4 @@
-package designpattern.command;
+package designpattern.command.pokemon;
 
 // 공격 커맨드 클래스
 public class AttackCommand implements Command{

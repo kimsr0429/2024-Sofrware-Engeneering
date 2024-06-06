@@ -1,4 +1,4 @@
-package designpattern.command;
+package designpattern.command.pokemon;
 
 // 인보커 클래스
 public class Game {
